@@ -3,8 +3,8 @@
 }
 
 body {
-  color: black;
-  background: black;
+  color: var(--color-foreground);
+  background: var(--color-background);
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -4943,4 +4943,8 @@ product-recommendations:has([data-has-recommendations='false']) {
     opacity: var(--atc-opacity, 1);
     translate: 0px var(--atc-destination, 0px);
   }
+}
+
+.header__columns {
+  background: red;
 }
