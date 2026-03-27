@@ -3,7 +3,7 @@
 }
 
 body {
-  color: var(--color-foreground);
+  color: black;
   background: black;
   display: flex;
   flex-direction: column;
